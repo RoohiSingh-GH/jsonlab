@@ -1,3 +1,4 @@
+//Read a file
 var fs = require("fs");
 
 fs.readFile("./student.json", "utf8", function (err, data) {
